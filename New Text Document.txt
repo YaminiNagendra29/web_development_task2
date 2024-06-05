@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Webpage</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Yamini</h1>
+    </header>
+    <nav>
+        <a href="#">Address</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+    <section>
+        <h2>Sample Webpage</h2>
+        <p>This is a demonstration of a sample webpage created by using HTML and CSS</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Sample Webpage. All rights reserved.</p>
+    </footer>
+</body>
+</html>
