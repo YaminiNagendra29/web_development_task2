@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #343a40;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #f8f9fa;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #007bff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Media Queries for Responsive Design */
+@media screen and (max-width: 768px) {
+    header {
+        padding: 15px;
+    }
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+    section {
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+    header {
+        padding: 10px;
+    }
+    nav a {
+        margin: 5px 0;
+    }
+    section {
+        padding: 10px;
+    }
+}
+
+/* Additional Responsive Enhancements */
+@media screen and (max-width: 1024px) {
+    nav {
+        padding: 5px;
+    }
+}
+
+@media screen and (orientation: landscape) {
+    header {
+        text-align: left;
+        padding-left: 20px;
+    }
+    footer {
+        text-align: right;
+        padding-right: 20px;
+    }
+}
